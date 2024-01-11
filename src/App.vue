@@ -1,16 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<AddCart />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AddCart from './components/AddCart.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    AddCart
+}
 }
 </script>
 
